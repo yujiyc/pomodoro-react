@@ -3,7 +3,7 @@ import { MenuButton } from "./MenuButton";
 
 export function Menu() {
   return (
-    <nav className="flex gap-4 items-center justify-center pt-2">
+    <nav className="flex gap-4 items-center justify-center">
       <MenuButton href="#" ariaLabel="Home" title="Home">
         <Home className="w-6 h-6" />
       </MenuButton>

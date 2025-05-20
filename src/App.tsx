@@ -1,7 +1,12 @@
+import { Container } from "./components/Container";
+import { Logo } from "./components/Logo";
+
 export function App() {
   return (
     <>
-      <h1>Pomodoro</h1>
+      <Container>
+        <Logo />
+      </Container>
     </>
   );
 }

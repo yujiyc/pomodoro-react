@@ -1,6 +1,6 @@
 type MenuButtonProps = {
   children: React.ReactNode;
-  href?: string;
+  href: string;
   ariaLabel?: string;
   title?: string;
 };

@@ -10,5 +10,5 @@ html,
 body,
 #root {
   font-family: "Inter", sans-serif;
-  @apply h-full m-0 p-0 bg-dark-gray text-gray-100 antialiased;
+  @apply h-full m-0 p-0 bg-zinc-900 text-zinc-100 antialiased;
 }

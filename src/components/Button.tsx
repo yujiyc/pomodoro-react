@@ -13,9 +13,9 @@ export function Button({
 }: ButtonProps) {
   const bgColor =
     color === "red"
-      ? "bg-red text-dark-gray"
+      ? "bg-red text-zinc-900"
       : color === "gray"
-      ? "bg-gray-900 text-gray-100"
+      ? "bg-zinc-900 text-zinc-100"
       : "";
   return (
     <>

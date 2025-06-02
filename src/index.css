@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 @theme {
   --color-red: #dc3728;
   --color-dark-gray: #0a0f1a;
@@ -10,5 +12,5 @@ html,
 body,
 #root {
   font-family: "Inter", sans-serif;
-  @apply h-full m-0 p-0 bg-zinc-900 text-zinc-100 antialiased;
+  @apply h-full m-0 p-0 bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 antialiased;
 }

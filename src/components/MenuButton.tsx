@@ -3,6 +3,7 @@ type MenuButtonProps = {
   href: string;
   ariaLabel: string;
   title: string;
+  onClick?: (event: React.MouseEvent<HTMLAnchorElement>) => void;
 };
 
 export function MenuButton({
@@ -10,10 +11,12 @@ export function MenuButton({
   href,
   ariaLabel,
   title,
+  onClick,
 }: MenuButtonProps) {
   return (
     <a
       href={href}
+      onClick={onClick}
       aria-label={ariaLabel}
       title={title}
       data-discover="true"
